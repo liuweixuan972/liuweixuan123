@@ -1,0 +1,230 @@
+body {
+    background-color: #f1f1f1;
+}
+
+// 导航
+.nav {
+    width: 100%;
+    height: 44px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+
+    p {
+        line-height: 44px;
+        font-size: 15px;
+    }
+
+    img {
+        margin-top: 10px;
+        width: 25px;
+        height: 25px;
+
+    }
+
+}
+
+// 广告
+.banner {
+    width: 100%;
+    position: relative;
+
+    img {
+        width: 100%;
+    }
+
+    // .yuan{
+    //     width: 100%;
+    //     position: absolute;
+    //     bottom: 0;
+    //     left: 150px;
+    //     span{
+    //         border: 1px solid #ccc;
+    //         width: 10px;
+    //         height: 10px;
+    //         border-radius: 50%;
+    //         margin-left: 10px;
+    //         float: left;
+    //         background-color: white;
+
+    //     }
+    // }
+}
+
+
+// 景点门票
+
+.jingdian {
+    width: 100%;
+
+    .jingdian1 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+
+        img {
+            width: 32%;
+            padding-left: 10px;
+            padding-top: 10px;
+            box-sizing: border-box;
+
+        }
+    }
+}
+
+// 分类
+.fenlei {
+    width: 100%;
+    margin-top: 15px;
+
+    border-top: 1px solid gray;
+
+    li {
+        width: 25%;
+        float: left;
+
+
+
+        img {
+            width: 100%;
+            border-right: 1px solid gray;
+            border-bottom: 1px solid gray;
+            box-sizing: border-box;
+        }
+        img:nth-child(4n){
+            border-right:none;
+        }
+        // img:nth-child(8){
+        //     border: 0 none;
+        // }
+    }
+   
+}
+
+// 分类2
+
+.fenlei1{
+    width: 100%;
+    background-color: white;
+    margin-top: 15px;
+    border-bottom:1px solid gray;
+    li{
+        width: 49%;
+        float: left;
+        img{
+        width: 100%;
+        }
+    }
+    li:nth-child(1){
+        border-right: 1px solid gray;
+    }
+    li:nth-child(2){
+        border-bottom: 1px solid gray;
+    }
+   
+
+
+}
+
+// 活动
+.huodong{
+    width: 100%;
+    height: 50px;
+    background-color: #ccc;
+    margin-top: 15px;
+    p{
+        line-height: 50px;
+        font-size: 20px;
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+}
+
+// 门票
+.menpiao{
+    width: 100%;
+    li{
+        width: 100%;
+        border-bottom:1px solid #ccc;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+// 长假
+
+.jia{
+    width: 100%;
+    height: 40px;
+    border-top:1px solid #ccc;
+    margin-top: 15px;
+    background-color: white;
+    a:nth-child(1){
+        
+        float: left;
+        line-height: 40px;
+        margin-left: 50px;
+        font-size: 16px;
+    }
+    a:nth-child(2){
+        float: right;
+        line-height: 40px;
+        margin-right: 50px;
+        font-size: 16px;
+    }
+    a:hover{
+        display: block;
+        color: #d45acd;
+        border-bottom:1px solid purple; 
+    }
+}
+
+// 图片
+.tupian{
+    width: 100%;
+    margin-top: 15px;
+    img{
+        width: 100%;
+    }
+    p{
+        width: 100%;
+    }
+}
+
+// 尾部
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    margin-top: 15px;
+    p{
+        text-align: center;
+        line-height: 40px;
+        font-size: 15px;
+    }
+}
+
+.footer1{
+    width: 100%;
+    height: 30px;
+    background-color: #d45acd;
+    margin-top: 20px;
+    a:nth-child(1){
+        float: left;
+        line-height: 30px;
+        color: white;
+    }
+    a:nth-child(2){
+        margin-left: 40px;
+        line-height: 30px;
+        color: white;
+    }
+    a:nth-child(3){
+        float: right;
+        line-height: 30px;
+        color: white;
+        font-weight: 700;
+    }
+}
